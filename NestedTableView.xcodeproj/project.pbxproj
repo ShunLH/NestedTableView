@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CC784DB54E234ED1B9A7921 /* Pods_NestedTableView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF258EEA3D6E443FD596E219 /* Pods_NestedTableView.framework */; };
+		EF0FFA1323376D4400C22751 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0FFA1223376D4400C22751 /* BaseViewController.swift */; };
+		EF144002233748120036F1AC /* SharedConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF144001233748120036F1AC /* SharedConstant.swift */; };
+		EF1440052337489E0036F1AC /* ParentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1440042337489E0036F1AC /* ParentModel.swift */; };
+		EF558B2D23361DCF0079B01A /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF558B2C23361DCF0079B01A /* NetworkClient.swift */; };
 		EFC30A3B232E4B4500A28B5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30A3A232E4B4500A28B5A /* AppDelegate.swift */; };
 		EFC30A3D232E4B4500A28B5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30A3C232E4B4500A28B5A /* ViewController.swift */; };
 		EFC30A40232E4B4500A28B5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC30A3E232E4B4500A28B5A /* Main.storyboard */; };
 		EFC30A42232E4B4600A28B5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC30A41232E4B4600A28B5A /* Assets.xcassets */; };
 		EFC30A45232E4B4600A28B5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC30A43232E4B4600A28B5A /* LaunchScreen.storyboard */; };
+		EFC30A51232E4CE500A28B5A /* ParentListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30A4F232E4CE500A28B5A /* ParentListItemTableViewCell.swift */; };
+		EFC30A52232E4CE500A28B5A /* ParentListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC30A50232E4CE500A28B5A /* ParentListItemTableViewCell.xib */; };
+		EFC30A55232E4E5100A28B5A /* ChildListItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30A53232E4E5100A28B5A /* ChildListItemTableViewCell.swift */; };
+		EFC30A56232E4E5100A28B5A /* ChildListItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFC30A54232E4E5100A28B5A /* ChildListItemTableViewCell.xib */; };
+		EFC30A59232E533800A28B5A /* ChildVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30A58232E533800A28B5A /* ChildVO.swift */; };
+		EFC30A5B232E534100A28B5A /* ParentVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC30A5A232E534100A28B5A /* ParentVO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		702E962C7C01A7BC24184D3D /* Pods-NestedTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.release.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.release.xcconfig"; sourceTree = "<group>"; };
+		83E6C0A360F538392CA011B8 /* Pods-NestedTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NestedTableView.debug.xcconfig"; path = "Target Support Files/Pods-NestedTableView/Pods-NestedTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		EF0FFA1223376D4400C22751 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		EF144001233748120036F1AC /* SharedConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedConstant.swift; sourceTree = "<group>"; };
+		EF1440042337489E0036F1AC /* ParentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentModel.swift; sourceTree = "<group>"; };
+		EF258EEA3D6E443FD596E219 /* Pods_NestedTableView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NestedTableView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF558B2C23361DCF0079B01A /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
 		EFC30A37232E4B4500A28B5A /* NestedTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestedTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC30A3A232E4B4500A28B5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFC30A3C232E4B4500A28B5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +40,12 @@
 		EFC30A41232E4B4600A28B5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFC30A44232E4B4600A28B5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFC30A46232E4B4600A28B5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC30A4F232E4CE500A28B5A /* ParentListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentListItemTableViewCell.swift; sourceTree = "<group>"; };
+		EFC30A50232E4CE500A28B5A /* ParentListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ParentListItemTableViewCell.xib; sourceTree = "<group>"; };
+		EFC30A53232E4E5100A28B5A /* ChildListItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildListItemTableViewCell.swift; sourceTree = "<group>"; };
+		EFC30A54232E4E5100A28B5A /* ChildListItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChildListItemTableViewCell.xib; sourceTree = "<group>"; };
+		EFC30A58232E533800A28B5A /* ChildVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildVO.swift; sourceTree = "<group>"; };
+		EFC30A5A232E534100A28B5A /* ParentVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentVO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,88 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC784DB54E234ED1B9A7921 /* Pods_NestedTableView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		372D4C5C453E55B7E76BA273 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83E6C0A360F538392CA011B8 /* Pods-NestedTableView.debug.xcconfig */,
+				702E962C7C01A7BC24184D3D /* Pods-NestedTableView.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DF6A5953BCC1D1EF26491E8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF258EEA3D6E443FD596E219 /* Pods_NestedTableView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF143FFE233747D60036F1AC /* xibs */ = {
+			isa = PBXGroup;
+			children = (
+				EFC30A50232E4CE500A28B5A /* ParentListItemTableViewCell.xib */,
+				EFC30A54232E4E5100A28B5A /* ChildListItemTableViewCell.xib */,
+			);
+			path = xibs;
+			sourceTree = "<group>";
+		};
+		EF143FFF233747E60036F1AC /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				EFC30A4F232E4CE500A28B5A /* ParentListItemTableViewCell.swift */,
+				EFC30A53232E4E5100A28B5A /* ChildListItemTableViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		EF144000233747FF0036F1AC /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF144001233748120036F1AC /* SharedConstant.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		EF1440032337488A0036F1AC /* model */ = {
+			isa = PBXGroup;
+			children = (
+				EF1440042337489E0036F1AC /* ParentModel.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		EF14400623374A410036F1AC /* data */ = {
+			isa = PBXGroup;
+			children = (
+				EF1440032337488A0036F1AC /* model */,
+				EFC30A57232E532A00A28B5A /* vos */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		EF558B2B23361DB70079B01A /* network */ = {
+			isa = PBXGroup;
+			children = (
+				EF558B2C23361DCF0079B01A /* NetworkClient.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
 		EFC30A2E232E4B4500A28B5A = {
 			isa = PBXGroup;
 			children = (
 				EFC30A39232E4B4500A28B5A /* NestedTableView */,
 				EFC30A38232E4B4500A28B5A /* Products */,
+				372D4C5C453E55B7E76BA273 /* Pods */,
+				DF6A5953BCC1D1EF26491E8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +149,53 @@
 		EFC30A39232E4B4500A28B5A /* NestedTableView */ = {
 			isa = PBXGroup;
 			children = (
+				EF14400623374A410036F1AC /* data */,
+				EF144000233747FF0036F1AC /* utils */,
+				EF558B2B23361DB70079B01A /* network */,
+				EFC30A4E232E4C9200A28B5A /* cells */,
+				EFC30A4D232E4B8D00A28B5A /* viewcontrollers */,
+				EFC30A4C232E4B7F00A28B5A /* storyboards */,
 				EFC30A3A232E4B4500A28B5A /* AppDelegate.swift */,
-				EFC30A3C232E4B4500A28B5A /* ViewController.swift */,
-				EFC30A3E232E4B4500A28B5A /* Main.storyboard */,
 				EFC30A41232E4B4600A28B5A /* Assets.xcassets */,
 				EFC30A43232E4B4600A28B5A /* LaunchScreen.storyboard */,
 				EFC30A46232E4B4600A28B5A /* Info.plist */,
 			);
 			path = NestedTableView;
+			sourceTree = "<group>";
+		};
+		EFC30A4C232E4B7F00A28B5A /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EFC30A3E232E4B4500A28B5A /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		EFC30A4D232E4B8D00A28B5A /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				EFC30A3C232E4B4500A28B5A /* ViewController.swift */,
+				EF0FFA1223376D4400C22751 /* BaseViewController.swift */,
+			);
+			path = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		EFC30A4E232E4C9200A28B5A /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				EF143FFF233747E60036F1AC /* cells */,
+				EF143FFE233747D60036F1AC /* xibs */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		EFC30A57232E532A00A28B5A /* vos */ = {
+			isa = PBXGroup;
+			children = (
+				EFC30A58232E533800A28B5A /* ChildVO.swift */,
+				EFC30A5A232E534100A28B5A /* ParentVO.swift */,
+			);
+			path = vos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EFC30A49232E4B4600A28B5A /* Build configuration list for PBXNativeTarget "NestedTableView" */;
 			buildPhases = (
+				8EEAA5D072A805224E03FF5F /* [CP] Check Pods Manifest.lock */,
 				EFC30A33232E4B4500A28B5A /* Sources */,
 				EFC30A34232E4B4500A28B5A /* Frameworks */,
 				EFC30A35232E4B4500A28B5A /* Resources */,
+				A23E589C861D729FBE91BAA1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +258,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFC30A52232E4CE500A28B5A /* ParentListItemTableViewCell.xib in Resources */,
 				EFC30A45232E4B4600A28B5A /* LaunchScreen.storyboard in Resources */,
 				EFC30A42232E4B4600A28B5A /* Assets.xcassets in Resources */,
+				EFC30A56232E4E5100A28B5A /* ChildListItemTableViewCell.xib in Resources */,
 				EFC30A40232E4B4500A28B5A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8EEAA5D072A805224E03FF5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NestedTableView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A23E589C861D729FBE91BAA1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NestedTableView/Pods-NestedTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EFC30A33232E4B4500A28B5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF144002233748120036F1AC /* SharedConstant.swift in Sources */,
+				EF1440052337489E0036F1AC /* ParentModel.swift in Sources */,
+				EFC30A59232E533800A28B5A /* ChildVO.swift in Sources */,
 				EFC30A3D232E4B4500A28B5A /* ViewController.swift in Sources */,
+				EFC30A5B232E534100A28B5A /* ParentVO.swift in Sources */,
+				EF0FFA1323376D4400C22751 /* BaseViewController.swift in Sources */,
 				EFC30A3B232E4B4500A28B5A /* AppDelegate.swift in Sources */,
+				EF558B2D23361DCF0079B01A /* NetworkClient.swift in Sources */,
+				EFC30A55232E4E5100A28B5A /* ChildListItemTableViewCell.swift in Sources */,
+				EFC30A51232E4CE500A28B5A /* ParentListItemTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +475,13 @@
 		};
 		EFC30A4A232E4B4600A28B5A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83E6C0A360F538392CA011B8 /* Pods-NestedTableView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM33GLD8J3;
 				INFOPLIST_FILE = NestedTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +495,13 @@
 		};
 		EFC30A4B232E4B4600A28B5A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702E962C7C01A7BC24184D3D /* Pods-NestedTableView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MM33GLD8J3;
 				INFOPLIST_FILE = NestedTableView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
